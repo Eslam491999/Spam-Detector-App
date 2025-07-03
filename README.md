@@ -9,14 +9,16 @@ A simple Streamlit app that uses machine learning to classify text messages as s
 - Shows model evaluation metrics (confusion matrix, classification report)
 
 ## Requirements
-- Python 3.7+
-- streamlit
-- pandas
-- scikit-learn
+See `requirements.txt`:
+```text
+streamlit
+pandas
+scikit-learn
+```
 
 ## Installation
 ```bash
-pip install streamlit pandas scikit-learn
+pip install -r requirements.txt
 ```
 
 ## Usage
